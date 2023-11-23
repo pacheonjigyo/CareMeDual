@@ -1,0 +1,59 @@
+html,
+body {
+  height: 100vh;
+}
+body {
+  margin: 0;
+  /* background-image: radial-gradient(30% 50%, #555 6%, #333 90%); */
+  /* background: #e5d4cc; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5em;
+}
+
+.knob {
+  display: flex;
+
+  cursor: grab;
+
+  position: relative;
+}
+.knob .ticks {
+  position: absolute;
+}
+.knob .ticks .tick {
+  position: absolute;
+  box-shadow: inset 0 0 0 0 black;
+
+  transition: box-shadow 0.5s;
+}
+.knob .ticks .tick.active {
+  box-shadow: inset 0 0 5px 10px white;
+}
+.knob.outer {
+  border-radius: 50%;
+  border-top: 4px solid white;
+  border-left: 4px solid white;
+  background-image: radial-gradient(100% 70%, #666 6%, #333 90%);
+  /* background: #e5d4cc; */
+  box-shadow: 0 5px 15px 2px #d8bcb0, 3px 3px 5px 3px #666, 0 0 0 12px #e5d4cc;
+}
+.knob.inner {
+  border-radius: 50%;
+}
+.knob.inner .grip {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  border-bottom: 4px solid transparent;
+  border-top: 8px solid #d4baad;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+}

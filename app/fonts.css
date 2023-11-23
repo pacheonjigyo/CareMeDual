@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "NotoSansKR";
+  font-style: normal;
+  font-weight: 100;
+  src: local("NotoSansKR"),
+    url("/fonts/NotoSansKR/NotoSansKR-Light.ttf") format("woff");
+}
+
+@font-face {
+  font-family: "NotoSansKR";
+  font-style: normal;
+  font-weight: 400;
+  src: local("NotoSansKR"),
+    url("/fonts/NotoSansKR/NotoSansKR-Regular.ttf") format("woff");
+}
+
+@font-face {
+  font-family: "NotoSansKR";
+  font-style: normal;
+  font-weight: 700;
+  src: local("NotoSansKR"),
+    url("/fonts/NotoSansKR/NotoSansKR-Bold.ttf") format("woff");
+}
+
+@font-face {
+  font-family: "NanumSquareNeo";
+  font-style: normal;
+  font-weight: 300;
+  src: local("NanumSquareNeo"),
+    url("/fonts/NanumSquareNeo/NanumSquareNeoTTF-aLt.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "NanumSquareNeo";
+  font-style: normal;
+  font-weight: 400;
+  src: local("NanumSquareNeo"),
+    url("/fonts/NanumSquareNeo/NanumSquareNeoTTF-bRg.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "NanumSquareNeo";
+  font-style: normal;
+  font-weight: 700;
+  src: local("NanumSquareNeo"),
+    url("/fonts/NanumSquareNeo/NanumSquareNeoTTF-cBd.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "NanumSquareNeo";
+  font-style: normal;
+  font-weight: 800;
+  src: local("NanumSquareNeo"),
+    url("/fonts/NanumSquareNeo/NanumSquareNeoTTF-dEb.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "NanumSquareNeo";
+  font-style: normal;
+  font-weight: 900;
+  src: local("NanumSquareNeo"),
+    url("/fonts/NanumSquareNeo/NanumSquareNeoTTF-eHv.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 100;
+  src: local("Gilroy"), url("/fonts/Gilroy/Gilroy-Light.ttf") format("woff");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Gilroy"), url("/fonts/Gilroy/Gilroy-Regular.ttf") format("woff");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Gilroy"), url("/fonts/Gilroy/Gilroy-Bold.ttf") format("woff");
+}
+
+@font-face {
+  font-family: "PlayfairDisplay";
+  font-style: normal;
+  font-weight: 400;
+  src: local("PlayfairDisplay"),
+    url("/fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf") format("woff");
+}
+
+@font-face {
+  font-family: "PlayfairDisplay";
+  font-style: normal;
+  font-weight: 700;
+  src: local("PlayfairDisplay"),
+    url("/fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf") format("woff");
+}
+
+@font-face {
+  font-family: "agchoijeongho-screen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
